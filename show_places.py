@@ -21,7 +21,6 @@ sorted_rows = dict(sorted(rows.items(), key=lambda x: x[1]))
 final_dict = {}
 for k, v in sorted_rows.items():
     if min_geo_range <= v <= max_geo_range:
-        # print(k, round(v, 1))
         final_dict[k] = round(v, 1)
 
 final_string = ("\n".join("{!r} - {!r}".format(k, v)
