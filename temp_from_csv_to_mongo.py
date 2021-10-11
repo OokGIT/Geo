@@ -1,6 +1,6 @@
 import csv
 import mpu
-from _models import WriteToDb
+from temp_models import WriteToDb
 
 lat1 = 50.44029
 lon1 = 30.55950
