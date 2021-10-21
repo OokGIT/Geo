@@ -2,8 +2,9 @@ import csv
 import mpu
 import telebot
 from geopy.point import *
+import config
 
-bot = telebot.TeleBot("1954510942:AAEAe9zZ9wM9zcLwuj3xRaaprBmItRfMAHA", parse_mode=None)
+bot = telebot.TeleBot(config.API_KEY, parse_mode=None)
 
 # lat1 = 50.44029
 # lon1 = 30.55950
